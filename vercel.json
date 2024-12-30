@@ -1,17 +1,12 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "dist" }
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
-    ]
+    },
+    "scripts": {
+      "install": "npm install vite --save-dev",
+      "build": "vite build"
+    }
   }
   
