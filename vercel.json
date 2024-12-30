@@ -1,0 +1,12 @@
+{
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "scripts": {
+      "install": "npm install -g vite && npm install",
+      "build": "vite build"
+    }
+  }
+  
