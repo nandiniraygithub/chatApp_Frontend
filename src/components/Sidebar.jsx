@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
-import { useChatStore } from "../store/UseChatStore";
+import { useChatStore } from "../store/UseChatStore.jsx";
 import { useAuthStore } from "../store/UseAuthStore";
 import SidebarSkeleton from "./skeletons/SidebarSkeleton";
 import { Users } from "lucide-react";

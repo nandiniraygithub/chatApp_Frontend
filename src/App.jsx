@@ -7,8 +7,8 @@ import SettingsPage from "./pages/settingsPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 
 import { Routes, Route, Navigate } from "react-router-dom";
-import { useAuthStore } from "./store/UseAuthStore.js";
-import { useThemeStore } from "./store/UseThemeStore.js";
+import { useAuthStore } from "./store/UseAuthStore.jsx";
+import { useThemeStore } from "./store/UseThemeStore.jsx";
 import { useEffect } from "react";
 
 import { Loader } from "lucide-react";
